@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		90609D9625F935130000E3B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609D9525F935130000E3B0 /* AppDelegate.swift */; };
 		90609D9825F935130000E3B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609D9725F935130000E3B0 /* SceneDelegate.swift */; };
-		90609D9A25F935130000E3B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609D9925F935130000E3B0 /* ViewController.swift */; };
 		90609D9D25F935130000E3B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90609D9B25F935130000E3B0 /* Main.storyboard */; };
 		90609D9F25F935150000E3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90609D9E25F935150000E3B0 /* Assets.xcassets */; };
 		90609DA225F935150000E3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90609DA025F935150000E3B0 /* LaunchScreen.storyboard */; };
 		90609DAD25F935160000E3B0 /* DevmountainWorldControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DAC25F935160000E3B0 /* DevmountainWorldControlTests.swift */; };
 		90609DB825F935160000E3B0 /* DevmountainWorldControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DB725F935160000E3B0 /* DevmountainWorldControlUITests.swift */; };
+		90609DD025F935A20000E3B0 /* PokemonSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DCF25F935A20000E3B0 /* PokemonSearchTableViewController.swift */; };
+		90609DDE25F9375F0000E3B0 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DDD25F9375F0000E3B0 /* Pokemon.swift */; };
+		90609DEE25F9393B0000E3B0 /* PokemonCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90609DED25F9393B0000E3B0 /* PokemonCardTableViewCell.xib */; };
+		90609DF425F93ACD0000E3B0 /* PokemonCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DF325F93ACD0000E3B0 /* PokemonCardTableViewCell.swift */; };
+		90609DFF25F93CE30000E3B0 /* PokemonNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609DFE25F93CE30000E3B0 /* PokemonNetworking.swift */; };
+		90609E0825F9426E0000E3B0 /* PokemonSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90609E0725F9426E0000E3B0 /* PokemonSearchPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		90609D9225F935130000E3B0 /* DevmountainWorldControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevmountainWorldControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90609D9525F935130000E3B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90609D9725F935130000E3B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90609D9925F935130000E3B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90609D9C25F935130000E3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90609D9E25F935150000E3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90609DA125F935150000E3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		90609DB325F935160000E3B0 /* DevmountainWorldControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevmountainWorldControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90609DB725F935160000E3B0 /* DevmountainWorldControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevmountainWorldControlUITests.swift; sourceTree = "<group>"; };
 		90609DB925F935160000E3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90609DCF25F935A20000E3B0 /* PokemonSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSearchTableViewController.swift; sourceTree = "<group>"; };
+		90609DDD25F9375F0000E3B0 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		90609DED25F9393B0000E3B0 /* PokemonCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCardTableViewCell.xib; sourceTree = "<group>"; };
+		90609DF325F93ACD0000E3B0 /* PokemonCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardTableViewCell.swift; sourceTree = "<group>"; };
+		90609DFE25F93CE30000E3B0 /* PokemonNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonNetworking.swift; sourceTree = "<group>"; };
+		90609E0725F9426E0000E3B0 /* PokemonSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSearchPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,10 @@
 		90609D9425F935130000E3B0 /* DevmountainWorldControl */ = {
 			isa = PBXGroup;
 			children = (
-				90609D9525F935130000E3B0 /* AppDelegate.swift */,
-				90609D9725F935130000E3B0 /* SceneDelegate.swift */,
-				90609D9925F935130000E3B0 /* ViewController.swift */,
-				90609D9B25F935130000E3B0 /* Main.storyboard */,
-				90609D9E25F935150000E3B0 /* Assets.xcassets */,
-				90609DA025F935150000E3B0 /* LaunchScreen.storyboard */,
-				90609DA325F935150000E3B0 /* Info.plist */,
+				90609E0325F93CF30000E3B0 /* Networking */,
+				90609DE225F937650000E3B0 /* Models */,
+				90609DD425F935AC0000E3B0 /* Views+ViewControllers */,
+				90609DC825F935600000E3B0 /* Resources */,
 			);
 			path = DevmountainWorldControl;
 			sourceTree = "<group>";
@@ -126,6 +133,62 @@
 				90609DB925F935160000E3B0 /* Info.plist */,
 			);
 			path = DevmountainWorldControlUITests;
+			sourceTree = "<group>";
+		};
+		90609DC825F935600000E3B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90609D9525F935130000E3B0 /* AppDelegate.swift */,
+				90609D9725F935130000E3B0 /* SceneDelegate.swift */,
+				90609D9B25F935130000E3B0 /* Main.storyboard */,
+				90609D9E25F935150000E3B0 /* Assets.xcassets */,
+				90609DA025F935150000E3B0 /* LaunchScreen.storyboard */,
+				90609DA325F935150000E3B0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		90609DD425F935AC0000E3B0 /* Views+ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90609DE925F9391B0000E3B0 /* PokemonSearchTableViewController */,
+				90609DF225F93AB70000E3B0 /* PokemonCardCell */,
+			);
+			path = "Views+ViewControllers";
+			sourceTree = "<group>";
+		};
+		90609DE225F937650000E3B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90609DDD25F9375F0000E3B0 /* Pokemon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90609DE925F9391B0000E3B0 /* PokemonSearchTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90609DCF25F935A20000E3B0 /* PokemonSearchTableViewController.swift */,
+				90609E0725F9426E0000E3B0 /* PokemonSearchPresenter.swift */,
+			);
+			path = PokemonSearchTableViewController;
+			sourceTree = "<group>";
+		};
+		90609DF225F93AB70000E3B0 /* PokemonCardCell */ = {
+			isa = PBXGroup;
+			children = (
+				90609DED25F9393B0000E3B0 /* PokemonCardTableViewCell.xib */,
+				90609DF325F93ACD0000E3B0 /* PokemonCardTableViewCell.swift */,
+			);
+			path = PokemonCardCell;
+			sourceTree = "<group>";
+		};
+		90609E0325F93CF30000E3B0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				90609DFE25F93CE30000E3B0 /* PokemonNetworking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +297,7 @@
 				90609DA225F935150000E3B0 /* LaunchScreen.storyboard in Resources */,
 				90609D9F25F935150000E3B0 /* Assets.xcassets in Resources */,
 				90609D9D25F935130000E3B0 /* Main.storyboard in Resources */,
+				90609DEE25F9393B0000E3B0 /* PokemonCardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90609D9A25F935130000E3B0 /* ViewController.swift in Sources */,
 				90609D9625F935130000E3B0 /* AppDelegate.swift in Sources */,
+				90609DFF25F93CE30000E3B0 /* PokemonNetworking.swift in Sources */,
+				90609DDE25F9375F0000E3B0 /* Pokemon.swift in Sources */,
 				90609D9825F935130000E3B0 /* SceneDelegate.swift in Sources */,
+				90609E0825F9426E0000E3B0 /* PokemonSearchPresenter.swift in Sources */,
+				90609DF425F93ACD0000E3B0 /* PokemonCardTableViewCell.swift in Sources */,
+				90609DD025F935A20000E3B0 /* PokemonSearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DevmountainWorldControl/Info.plist;
+				INFOPLIST_FILE = DevmountainWorldControl/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DevmountainWorldControl/Info.plist;
+				INFOPLIST_FILE = DevmountainWorldControl/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
